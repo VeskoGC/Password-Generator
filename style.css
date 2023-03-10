@@ -1,0 +1,123 @@
+@font-face {
+  font-family: hacker ;
+  src: url(Hacked-KerX.ttf);
+}
+
+body{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('https://giffiles.alphacoders.com/209/209037.gif');
+  background-size: cover;
+}
+
+#main {
+  margin: 200px auto;
+  background: #1F2937;
+  animation-name: popup;
+  animation-duration: 1.5s;
+  border-radius: 10px;
+  width: 500px;
+  padding: 50px 30px;
+}
+
+@keyframes popup {
+ 0% {
+  opacity: 0;
+ }
+
+
+ 100% {
+  opacity: 1;
+ }
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Hacker', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  margin: 15px 0px
+}
+
+.color-green {
+ color: #4ADF86;
+}
+
+p {
+  margin-top: 0px;
+  font-family: 'Hacker', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #D5D4D8;
+}
+
+button {
+  height: 42px;
+  width: 191px;
+  border-radius: 6px;
+  padding: 9px 17px 9px 15px;
+  background: #10B981;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.output-container {
+  display: flex;
+  justify-content: space-between
+}
+
+.output1 {
+  width: 200px;
+  height: 50px;
+  background-color:#273549;
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:larger;
+}
+
+.output2 {
+  color: white;
+  width: 200px;
+  height: 50px;
+  background-color:#273549;  
+  border-radius: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:larger;
+}
+
+.output-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.output-wrapper > button {
+  width: 125px;
+  font-size: 12px;
+}
+
+.output-wrapper > div {
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: green;
+  margin: 20px 0px;
+}
